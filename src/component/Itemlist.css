@@ -1,0 +1,33 @@
+.itemlist-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list-item{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+   border: 1px solid black;
+   
+   border-radius: 10px;
+   padding: 5px;
+    
+}
+.list-btn{
+     width: 70px;
+    height: 50px;
+     padding: 5px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(187, 184, 184);
+     color: white;
+     margin-left: 10px
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
