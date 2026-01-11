@@ -1,22 +1,38 @@
 .inputfield-main{
-    margin-top: 10vh;
+    margin-top: 10px;
+}
+
+.inputfield-area{
+    background-color: #dadada;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    border-radius: 15px;
+    overflow: hidden;
 }
 .inputfield-main input{
+    background-color: #dadada;
     width: 200px;
     height: 40px;
     padding: 5px;
     outline: none;
-    border: 2px solid gray;
-    border-radius: 8px;
+    border: none;
+}
+input:focus {
+  border:none;
+  outline: none;
 }
 .inputfield-main button{
-     width: 70px;
+     width: 80px;
+
+     right: 0;
     height: 50px;
      padding: 5px;
      margin-left: 10px;
-     background-color: rgb(59, 109, 246);
+    background-color: rgb(255, 81, 0);
      border: none;
      color: white;
      border-radius: 6px;
+     border-radius: 10px;
 
 }    

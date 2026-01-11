@@ -1,0 +1,12 @@
+.todo-card{
+  
+   background-color: white;
+  color: black;
+  width: 400px;
+  height: 60vh;
+  border-radius: 10px;
+  min-height: 300px;
+  overflow-y: scroll;
+
+
+}

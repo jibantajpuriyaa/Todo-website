@@ -9,8 +9,11 @@ const Inputfield = () => {
   return (
     <center>
     <div className='inputfield-main'>
-      <input value={itemName} onChange={(e)=>{setItemName(e.target.value)}} placeholder='enter your todo here' required/>
-      <button onClick={()=>addData(itemName, setItemName)}> Add</button>
+      <div className="inputfield-area">
+          <input value={itemName} onChange={(e)=>{setItemName(e.target.value)}} placeholder='enter your todo here' required/>
+      <button onClick={()=>addData(itemName,setItemName)}> Add</button>
+      </div>
+    
     </div>
     </center>
   )
