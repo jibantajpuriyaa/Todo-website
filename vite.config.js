@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Todo-website/', 
   plugins: [
-     base: '/Todo-website/',
     react({
       babel: {
         plugins: [['babel-plugin-react-compiler']],
