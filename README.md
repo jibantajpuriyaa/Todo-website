@@ -6,7 +6,7 @@
 
 ## Demo
 
-https://jibantajpuriyaa.github.io/calculator/
+https://jibantajpuriyaa.github.io/Todo-website/
 
 ## Run Locally
 
