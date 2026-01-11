@@ -5,6 +5,7 @@
 
 *{
   margin: 0;
+    user-select: none;
   padding: 0;
  	::-webkit-scrollbar { display: none; }
 }
